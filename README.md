@@ -14,5 +14,7 @@ I also use Bootstrap. Bootstrap is a free and open-source CSS framework directed
 <img src="./Screenshot/SS.png"/>
 
 <b>Jaydeep Das</b>
+<br/>
 3rd year student, CSE dept.
+<br/>
 portfolio - https://jaydeepdas2000.github.io/JaydeepWeb/jaydeep_das.html
