@@ -27,6 +27,7 @@
 
 
 <body>
+    <!--navbar-->
     <nav class="navbar navbar-dark bg-dark">
         <div class="container">
             <span class="navbar-brand mb-0">
@@ -34,9 +35,11 @@
             </span>
         </div>
     </nav>
+    <!--end_navbar-->
     <div class="container pt-5">
         <div class="row">
             <div class="col-md-6">
+                <!--Form start-->
                 <form id="enrollmentForm" onsubmit="event.preventDefault(); onFormSubmit();" autocomplete="off">
                     <div class="row py-2">
                         <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
@@ -124,6 +127,7 @@
                         <button type="reset" class="btn btn-danger">Clear</button>
                     </div>
                 </form>
+                <!--form end-->
             </div>
             <div class="col-md-6 pt-3">
                 <div>
@@ -132,6 +136,7 @@
                     </h3>
                 </div>
                 <hr />
+                <!--table start-->
                 <table class="table list" id="studentList">
                     <thead>
                         <tr>
@@ -146,6 +151,7 @@
                     <tbody class="one animate fadeIn list" id="dtl-placeholder">
                     </tbody>
                 </table>
+                <!--table end-->
             </div>
         </div>
     </div>
